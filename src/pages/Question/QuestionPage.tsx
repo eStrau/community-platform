@@ -111,6 +111,7 @@ export const QuestionPage = () => {
   }
 
   return (
+    // fix width here using { width: '100%', maxWidth: '1000px', alignSelf: 'center' } from Research Article script
     <Box sx={{ p: 7 }}>
       {isLoading ? (
         <Loader />
